@@ -4,13 +4,18 @@
 <meta charset="UTF-8">
 <title>ELMI - Portale Principale</title>
 
-<!-- Cooper Black (versione web compatibile) -->
-<link href="https://fonts.googleapis.com/css2?family=Cooper+Hewitt:wght@700&display=swap" rel="stylesheet">
-
 <style>
+/* Caricamento Cooper Black originale */
+@font-face {
+    font-family: 'CooperBlack';
+    src: url('CooperBlack.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-  font-family: 'Cooper Hewitt', sans-serif;
-  background: #e6e6e6; /* grigio chiaro */
+  font-family: 'CooperBlack', serif;
+  background: #d0d0d0; /* grigio più scuro */
   margin: 0;
   padding: 40px;
   text-align: center;
@@ -18,9 +23,9 @@ body {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 70px;
   margin-bottom: 50px;
-  font-weight: 700;
+  font-weight: normal;
 }
 
 .container {
@@ -36,8 +41,8 @@ h1 {
   color: white;
   padding: 25px;
   border-radius: 12px;
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 40px;
+  font-family: 'CooperBlack', serif;
   text-decoration: none;
   display: block;
   transition: 0.2s;
@@ -60,4 +65,3 @@ h1 {
 
 </body>
 </html>
-
