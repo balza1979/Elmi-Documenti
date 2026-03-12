@@ -1,4 +1,4 @@
-O<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="it">
 <head>
 <meta charset="UTF-8">
@@ -15,7 +15,7 @@ O<!DOCTYPE html>
 
 body {
   font-family: 'CooperBlack', serif;
-  background-image: url('sfondo-elmi-verticale.jpg'); /* Inserisci qui il nome del file dello sfondo */
+  background-image: url('sfondo-elmi-verticale.jpg'); /* sfondo */
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -25,9 +25,14 @@ body {
   color: #cc0000; /* rosso */
 }
 
+/* 🔽 Sposta tutto più in basso */
+.page-content {
+  padding-top: 220px; /* puoi aumentare o diminuire */
+}
+
 h1 {
   font-size: 70px;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
   font-weight: normal;
 }
 
@@ -62,12 +67,14 @@ h1 {
 
 <body>
 
-<h1>ELMI_Documentazione</h1>
+<div class="page-content">
+  <h1>ELMI_Documentazione</h1>
 
-<div class="container">
-  <a class="button" href="https://balza1979.github.io/Elmi-Ricerca-errori">ERRORI</a>
-  <a class="button" href="https://balza1979.github.io/Elmi-Pdf/">PDF ELMI</a>
-  <a class="button" href="https://balza1979.github.io/Test-multi-pdf/index.html">PDF VARI</a>
+  <div class="container">
+    <a class="button" href="https://balza1979.github.io/Elmi-Ricerca-errori">ERRORI</a>
+    <a class="button" href="https://balza1979.github.io/Elmi-Pdf/">PDF ELMI</a>
+    <a class="button" href="https://balza1979.github.io/Test-multi-pdf/index.html">PDF VARI</a>
+  </div>
 </div>
 
 </body>
